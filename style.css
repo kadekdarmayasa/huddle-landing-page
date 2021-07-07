@@ -147,14 +147,15 @@ img {
 
 /* header */
 .header {
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
   background: hsl(193, 100%, 97%) url('images/bg-hero-desktop.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: auto;
-  padding: 30px 0;
 }
+
 /* header title */
 .header-title {
   display: flex;
@@ -207,7 +208,7 @@ img {
   align-items: center;
   justify-content: center;
   width: 90%;
-  margin: 40px auto 0;
+  margin-top: 40px;
 }
 
 .header-body .text h1 {
@@ -250,7 +251,6 @@ img {
 section {
   width: 100%;
 }
-
 section .main {
   width: 90%;
   margin: 50px auto;
@@ -262,6 +262,8 @@ section .main {
 }
 
 .main .card {
+  width: 90%;
+  margin: auto;
   display: grid;
   display: -moz-grid;
   display: -ms-grid;
@@ -495,12 +497,6 @@ section .main {
 }
 
 @media screen and (max-width: 838px) {
-  .header {
-    background-image: url('images/bg-hero-mobile.svg');
-    background-position-y: -100px;
-    height: auto;
-  }
-
   .main .col.text {
     order: 2;
   }
@@ -586,6 +582,8 @@ section .main {
   }
 
   .main .card {
+    width: 90%;
+    margin: auto;
     padding: 2em 2em;
     text-align: center;
   }
@@ -599,5 +597,18 @@ section .main {
 @media screen and (min-width: 576px) {
   .info-panel {
     width: 500px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header-body img {
+    width: 300px;
+    margin: auto;
+  }
+
+  .main .card {
+    width: 100%;
+    padding: 2em 2em;
+    text-align: center;
   }
 }
