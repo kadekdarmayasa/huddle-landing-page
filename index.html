@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <!-- My Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <!-- header title -->
+      <div class="header-title">
+        <div class="logo">
+          <img src="images/logo.svg" />
+        </div>
+        <a href="#" class="btn">Try It Free</a>
+      </div>
+      <div class="header-body">
+        <div class="text">
+          <h1 data-aos="fade-right" data-aos-duration="800">Build the community your fans will love</h1>
+          <p data-aos="fade-left" data-aos-duration="800" data-aos-delay="300">
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+          </p>
+          <a href="#" class="btn-body" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">Get started for free</a>
+        </div>
+        <img src="images/illustration-mockups.svg" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800" />
+      </div>
+    </header>
+    <!-- akhir header -->
+
+    <!-- main -->
+    <section>
+      <main class="main">
+        <div class="card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col text">
+            <h2>Grow Together</h2>
+            <p>Generate meaning full discussions with you audience and build a strong, loyal cummunity.Think of insightful conversations you miss out on with a feedback form.</p>
+          </div>
+          <div class="col img">
+            <img src="images/illustration-grow-together.svg" />
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <div class="col img">
+            <img src="images/illustration-flowing-conversation.svg" />
+          </div>
+          <div class="col text">
+            <h2>Flowing Conversations</h2>
+            <p>You wouldn't paginate a conversation in real life so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+          <div class="col text">
+            <h2>Your Users</h2>
+            <p>It takes no time all to integrate Huddle width your app's authentication solution. This means, once signed in to your app, your user can start chatting immediately</p>
+          </div>
+          <div class="col img">
+            <img src="images/illustration-your-users.svg" />
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- main -->
+
+    <!-- info ponel -->
+    <section class="info-panel" data-aos="fade-zoom-in" data-aos-duration="1000">
+      <h2>Ready To Build Your Community?</h2>
+      <a href="" class="btn-body panel">Get Started For Free</a>
+    </section>
+    <!-- akhir info panel -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="items satu">
+          <div class="footer-logo fadeDown">
+            <img src="images/logo2.svg" />
+          </div>
+          <div class="item location fadeDown">
+            <img src="images/icon-location.svg" />
+            <p>Jalan Ratna, Gang Sandat, No 2, Tonja Denpasar Utara</p>
+          </div>
+          <div class="item call fadeDown">
+            <img src="images/icon-phone.svg" />
+            <p>+6287-852-773-125</p>
+          </div>
+          <div class="item email fadeDown">
+            <img src="images/icon-email.svg" />
+            <p>adiputrakadekdarmayasa@gmail.com</p>
+          </div>
+        </div>
+        <div class="items dua">
+          <a href="#" class="fadeDown">About Us</a>
+          <a href="#" class="fadeDown">What We Do</a>
+          <a href="#" class="fadeDown">FAQ</a>
+        </div>
+        <div class="items tiga">
+          <a href="#" class="fadeDown"> Career</a>
+          <a href="#" class="fadeDown">Blog</a>
+          <a href="#" class="fadeDown">Contact Us</a>
+        </div>
+
+        <div class="items empat">
+          <div class="link fadeDown">
+            <a href="https://www.facebook.com/kadekdarmayasa.kadekdarmayasa.75" target="_blank">
+              <img src="images/icon-facebook.svg" class="facebook" />
+            </a>
+            <a href="https://www.twitter.com/IKadekDarmaya12" target="_blank">
+              <img src="images/icon-twitter.svg" class="twitter" />
+            </a>
+            <a href="https://instagram.com/kadekdarmayasaa" target="_blank">
+              <img src="images/icon-instagram.svg" class="instagram" />
+            </a>
+          </div>
+          <p>@Copyright 2018 Huddle. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+
+    <!-- My Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
